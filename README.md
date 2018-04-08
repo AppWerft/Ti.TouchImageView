@@ -1,14 +1,14 @@
-# TiTouchImageView Module
+# Ti.TouchImageView Module
 
 Titanium native module wrapper for TouchImageView: https://github.com/MikeOrtiz/TouchImageView
 
 Do you like pinching and zooming on iOS? Wish it just worked on Android too? Here you go!
 
-## Get it [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/org.iotashan.TiTouchImageView)
+## Get it [![gitTio](http://gitt.io/badge.png)](http://gitt.io/component/Ti.touchimageview)
 Download the latest distribution ZIP-file and consult the [Titanium Documentation](http://docs.appcelerator.com/titanium/latest/#!/guide/Using_a_Module) on how install it, or simply use the [gitTio CLI](http://gitt.io/cli):
 
 ```bash
-gittio install org.iotashan.TiTouchImageView
+gittio install ti.touchimageview
 ```
 
 ## Referencing the module in your Ti mobile application 
@@ -17,14 +17,14 @@ Simply add the following lines to your `tiapp.xml` file:
 
 ```xml
 <modules>
-	<module platform="android">org.iotashan.titouchimageview</module>
+	<module platform="android">ti.touchimageview</module>
 </modules>
 ```
 
 To use your module in code, you will need to require it.
 
 ```javascript
-var TiTouchImageView = require('org.iotashan.TiTouchImageView');
+var TiTouchImageView = require('ti.touchimageview');
 var myView = TiTouchImageView.createView();
 ```
 
@@ -67,3 +67,9 @@ Returns the current zoom level as a float.
 ### getScrollPosition()
 
 Returns the current scroll position as point co-ordinates (x, y)
+
+## API Events
+
+### load
+###  zoom
+### pan
