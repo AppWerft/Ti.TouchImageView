@@ -6,7 +6,7 @@
  * Please see the LICENSE included with this distribution for details.
  *
  */
-package org.iotashan.TiTouchImageView;
+package ti.touchimageview;
 
 import org.appcelerator.kroll.KrollModule;
 import org.appcelerator.kroll.annotations.Kroll;
@@ -16,7 +16,7 @@ import org.appcelerator.kroll.common.Log;
 import org.appcelerator.kroll.common.TiConfig;
 
 
-@Kroll.module(name="TiTouchImageView", id="org.iotashan.TiTouchImageView")
+@Kroll.module(name="TiTouchImageView", id="ti.touchimageview")
 public class TiTouchImageViewModule extends KrollModule
 {
 

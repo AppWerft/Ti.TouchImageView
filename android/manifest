@@ -2,10 +2,10 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 2.0.0
+version: 2.0.1
 apiversion: 4
-description: TiTouchImageView
-author: Shannon Hicks
+description: TiTouchImageView (Events added)
+author: Shannon Hicks, Rainer Schleevoigt
 license: MIT
 copyright: Copyright (c) 2014 by Shannon Hicks
 
